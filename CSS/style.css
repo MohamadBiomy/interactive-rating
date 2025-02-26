@@ -36,7 +36,17 @@ body {
   padding: 34px;
   border-radius: 24px;
   background-color: var(--dark-blue);
-  width: 500px;
+  width: 520px;
+  height: 510px;
+}
+
+@media (max-width: 600px) {
+  .main-card {
+    padding: 20px 20px 8px;
+    border-radius: 24px;
+    width: 300px;
+    height: 387px;
+  }
 }
 
 .icon {
@@ -54,6 +64,17 @@ body {
   font-size: 21px;
 }
 
+@media (max-width: 600px) {
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .icon .star {
+    font-size: 16px;
+  }
+}
+
 .first-case h2 {
   color: var(--white);
   font-weight: var(--bold-font);
@@ -66,6 +87,18 @@ body {
   line-height: 1.6;
   font-size: 18px;
   max-width: 90%;
+}
+
+@media (max-width: 600px) {
+  .first-case h2 {
+    font-size: 26px;
+    margin: 30px 0 10px;
+  }
+  
+  .first-case h2 + p {
+    font-size: 13px;
+  }
+  
 }
 
 .first-case form div {
@@ -108,6 +141,21 @@ body {
   color: var(--dark-blue);
 }
 
+
+@media (max-width: 600px) {
+
+  .first-case form div {
+    margin: 24px 0 22px;
+  }
+  
+  .btn {
+    height: 46px;
+    width: 46px;
+    font-size: 15px;
+  }
+}
+
+
 .first-case input {
   display: block;
     width: 100%;
@@ -121,8 +169,99 @@ body {
     text-transform: uppercase;
     letter-spacing: .8px;
     transition: .3s;
+    outline: none;
+    border: none;
 }
 
 .first-case input:hover {
   background-color: var(--white);
+}
+
+.none {
+  display: none;
+}
+
+.warning {
+  color: #ff5454;
+  font-size: 18px;
+  margin: 11px;
+  transition: .7s;
+  visibility: hidden;
+}
+
+@media (max-width: 600px) {
+  .first-case input {
+    height: 42px;
+    font-size: 13px;
+    letter-spacing: 0.7px;
+  }
+  .warning {
+    font-size: 14px;
+    margin: 11px 0px 0px 9px;
+  }
+}
+
+
+/* second case */
+
+.submit-case .image-box {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.rating {
+  margin: 0 auto;
+  background-color: var(--circle);
+  color: var(--orange);
+  border-radius: 100px;
+  padding: 13px 34px;
+  width: fit-content;
+}
+
+@media (max-width: 600px) {
+  .submit-case .image-box {
+    margin: 16px 0;
+  }
+  
+  .rating {
+    font-size: 13px;
+    padding: 10px 32px;
+  }
+  
+}
+
+.text-box {
+  text-align: center;
+  color: var(--white);
+  margin-top: 50px;
+}
+
+.text-box h2 {
+  font-weight: var(--bold-font);
+  font-size: 39px;
+  margin-bottom: 18px;
+}
+
+.text-box p {
+  color: var(--light-grey);
+  font-size: 18px;
+  max-width: 90%;
+  margin: auto;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .text-box {
+    margin-top: 20px;
+  }
+  
+  .text-box h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .text-box p {
+    font-size: 14px;
+    max-width: 85%;
+  }
 }
