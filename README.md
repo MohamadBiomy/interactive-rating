@@ -6,7 +6,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -24,14 +23,10 @@ Users should be able to:
 - Select and submit a number rating
 - See the "Thank you" card state after submitting a rating
 
-### Screenshot
-
-![](./screenshot.jpg)
-
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site](https://mohamadbiomy.github.io/interactive-rating/)
 
 ## My process
 
@@ -39,16 +34,15 @@ Users should be able to:
 
 - HTML5
 - CSS
+- Media Queries
 - Flexbox
-- CSS Grid
 - Vanilla JavaScript
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I will focus on developing my JavaSript Skills
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- GitHub - [Mohamad Biomy](https://github.com/MohamadBiomy)
+- Frontend Mentor - [Mohamad Biomy](https://www.frontendmentor.io/profile/MohamadBiomy)
