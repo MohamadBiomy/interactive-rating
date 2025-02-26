@@ -1,0 +1,55 @@
+/* Projects variables start */
+:root {
+  --orange: #fb7413;
+  --white: #ffffff;
+  --light-grey: #959eac;
+  --dark-blue: #252d37;
+  --circle: #202531;
+  --very-dark-blue: #121417;
+  --bold-font: 700;
+  --regular-font: 700;
+}
+/* Projects variables end */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Overpass", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: var(--very-dark-blue);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.main-card {
+  padding: 34px;
+  border-radius: 24px;
+  background-color: var(--dark-blue);
+  min-width: 700px;
+}
+
+.icon {
+  background-color: var(--circle);
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon .star {
+  color: var(--orange);
+  font-size: 21px;
+}
