@@ -70,13 +70,13 @@ body {
 
 .first-case form div {
   display: flex;
-  margin: 30px 0;
+  margin: 30px 0 28px;
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
 }
 
-.first-case form div button {
+.btn {
   border-radius: 50%;
   height: 62px;
   width: 62px;
@@ -90,6 +90,22 @@ body {
   font-weight: var(--bold-font);
   outline: none;
   cursor: pointer;
+  transition: .3s;
+}
+
+.btn:hover {
+  background-color: var(--orange);
+  color: var(--dark-blue);
+}
+
+.selected {
+  background-color: var(--white);
+  color: var(--dark-blue);
+}
+
+.selected:hover {
+  background-color: var(--white);
+  color: var(--dark-blue);
 }
 
 .first-case input {
@@ -102,4 +118,11 @@ body {
     color: var(--dark-blue);
     font-weight: var(--bold-font);
     font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    transition: .3s;
+}
+
+.first-case input:hover {
+  background-color: var(--white);
 }
